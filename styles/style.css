@@ -1,0 +1,71 @@
+.cabecalho-titulo{
+
+    background-color: #585d4f;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center; 
+    justify-content: center;
+
+}
+.h1-cabecalho{
+    color: #ffffff;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.buttons-header{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+
+}
+.header-about{
+    font-weight: bold;
+    color: #ffffff;
+    margin: 50px;
+
+}
+#central {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Isso distribuirá os itens horizontalmente */
+}
+.buttons-header a:hover {
+    color: #007bff;
+}
+
+.grid_itens {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.grid_itens div {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.grid_itens input[type="text"] {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#grid_resultados {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Estilos específicos para os resultados */
+
+#grid_resultados div {
+    margin-bottom: 10px;
+}
